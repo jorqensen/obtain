@@ -1,0 +1,26 @@
+# Built binaries
+/obtain
+/obtain.exe
+
+# Local config and secrets
+.env
+.env.*
+config.yaml
+*.pem
+*.key
+
+# Editor / OS / tool noise
+.DS_Store
+*.log
+.idea/
+.vscode/
+.claude/
+
+# Release output
+/dist/
+
+# Docs site (VitePress)
+docs/node_modules/
+docs/.vitepress/.temp/
+docs/.vitepress/cache/
+docs/.vitepress/dist/
